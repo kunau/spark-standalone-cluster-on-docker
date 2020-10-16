@@ -1,8 +1,6 @@
 # Apache Spark Standalone Cluster on Docker
 
-> The project just got its [own article](https://towardsdatascience.com/apache-spark-cluster-on-docker-ft-a-juyterlab-interface-418383c95445) at Towards Data Science Medium blog! :sparkles:
-
-This project gives you an **Apache Spark** cluster in standalone mode with a **JupyterLab** interface built on top of **Docker**.
+This project builds an **Apache Spark** cluster in standalone mode with a **JupyterLab** interface built on top of **Docker**.
 Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR) API by running the Jupyter [notebooks](build/workspace/) with examples on how to read, process and write data.
 
 <p align="center"><img src="docs/image/cluster-architecture.png"></p>
@@ -19,7 +17,7 @@ Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR
 ## TL;DR
 
 ```bash
-curl -LO https://raw.githubusercontent.com/andre-marcos-perez/spark-standalone-cluster-on-docker/master/docker-compose.yml
+curl -LO https://raw.githubusercontent.com/kunau/spark-standalone-cluster-on-docker/master/docker-compose.yml
 docker-compose up
 ```
 
