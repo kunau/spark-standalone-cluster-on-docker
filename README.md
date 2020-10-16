@@ -1,7 +1,9 @@
-# Apache Spark Standalone Cluster on Docker
+# Apache Spark Standalone Cluster on Docker to support Patient / Donor stem cell matching
 
 This project builds an **Apache Spark** cluster in standalone mode with a **JupyterLab** interface built on top of **Docker**.
 Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR) API by running the Jupyter [notebooks](build/workspace/) with examples on how to read, process and write data. This work is based on (and forked from) the original project by André Perez - dekoperez - andre.marcos.perez@gmail.com.
+
+My expansion of this work applies Apache Spark/GraphX and Hadoop to impute N-locus haplotype graphs where edges are generated from public haplotype frequencies and connect nodes of sub-haplotype components. This will be used to provide a scalable patient / donor matching solution for bone marrow transplants.
 
 <p align="center"><img src="docs/image/cluster-architecture.png"></p>
 
