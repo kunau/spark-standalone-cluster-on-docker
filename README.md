@@ -1,7 +1,7 @@
 # Apache Spark Standalone Cluster on Docker
 
 This project builds an **Apache Spark** cluster in standalone mode with a **JupyterLab** interface built on top of **Docker**.
-Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR) API by running the Jupyter [notebooks](build/workspace/) with examples on how to read, process and write data.
+Learn Apache Spark through its **Scala**, **Python** (PySpark) and **R** (SparkR) API by running the Jupyter [notebooks](build/workspace/) with examples on how to read, process and write data. This work is based on (and forked from) the original project by André Perez - dekoperez - andre.marcos.perez@gmail.com.
 
 <p align="center"><img src="docs/image/cluster-architecture.png"></p>
 
