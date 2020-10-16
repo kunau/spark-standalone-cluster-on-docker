@@ -133,3 +133,4 @@ We'd love some help. To contribute, please read [this file](CONTRIBUTING.md).
 ## <a name="contributors"></a>Contributors
 
  - **André Perez** - [dekoperez](https://twitter.com/dekoperez) - andre.marcos.perez@gmail.com
+ - **NMDP/GRIMM** - https://github.com/nmdp-bioinformatics/grimm
